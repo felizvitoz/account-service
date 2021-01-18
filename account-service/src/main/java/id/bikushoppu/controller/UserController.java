@@ -16,7 +16,6 @@ import id.bikushoppu.entity.Accessibility;
 import id.bikushoppu.entity.Role;
 import id.bikushoppu.entity.RoleAccessibilitiy;
 import id.bikushoppu.entity.User;
-import id.bikushoppu.entity.UserRole;
 import id.bikushoppu.service.AccessibilityService;
 import id.bikushoppu.service.RoleService;
 import id.bikushoppu.service.UserService;

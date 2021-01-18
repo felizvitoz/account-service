@@ -6,4 +6,6 @@ import id.bikushoppu.user.CreateUserRequest;
 public interface UserService {
 
     public User create(CreateUserRequest createUserRequest) throws Exception;
+
+    public User findByUsername(String username) throws Exception;
 }

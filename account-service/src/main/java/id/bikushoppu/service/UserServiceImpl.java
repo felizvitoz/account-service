@@ -44,6 +44,11 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(user);
     }
 
+    @Override
+    public User findByUsername(final String username) throws Exception {
+        return userRepository.findFirstByUsername(username);
+    }
+
     private UserRole toUserRole(String roleCode) {
         try {
             Role role = this.roleRepository.findFirstByCode(roleCode);
