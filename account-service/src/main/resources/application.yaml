@@ -4,5 +4,3 @@ server:
 spring:
   application:
     name: account-service
-  jpa:
-    show-sql: true

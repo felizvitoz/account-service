@@ -50,7 +50,7 @@ public class UserController {
         return response;
     }
 
-    @GetMapping("/greeting")
+    @GetMapping("/fill-dummy")
     public String greeting() throws Exception {
         Accessibility accessibility =
             this.accessibilityService.create(Accessibility.builder().code("ACS-USERS").accessName("UserApiAccess").url("/users").build());
